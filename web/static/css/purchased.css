@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+}
+
+.purchased {
+   display: flex;
+   justify-content: center;
+}
+
+.purchased .contanier {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 8rem;
+}
+
+
+.purchased .contanier .cards {
+    margin: 0rem 8rem;
+}
+
+.purchased .contanier .cards .card{
+    width: 30%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+    padding: 0rem 0rem;
+    border-radius: 10px;
+    
+}
+
+.purchased .contanier .cards .image{
+    width: 100%;
+}
+
+.purchased .contanier .cards img{
+    width: 100%;
+}
+
+.purchased .contanier .cards .card .content{
+    margin: 0rem .5rem;
+    
+}
+
+.purchased .contanier .cards .card .item{
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+
+.subscription {
+   display: flex;
+   justify-content: center;
+   margin-top: 10rem;
+}
+
+.subscription .contanier {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 8rem;
+}
+
+
+.subscription .contanier .cards {
+    margin: 0rem 8rem;
+}
+
+.subscription .contanier .cards .card{
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    
+}
+
+.subscription .button{
+    background-color: rgb(14, 153, 77);
+    width: 100%;
+    height: 2rem;
+    margin: 0rem 0rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: .5rem;
+}
+
+.subscription .button a{
+    color: white;
+    margin: 2rem 0rem;
+}

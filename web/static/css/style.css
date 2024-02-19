@@ -1,0 +1,75 @@
+/*--------------------Globle-------------------------------*/
+ul {
+    text-decoration: none;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+ a{
+    text-decoration: none;
+
+}
+/*-------------------End-Globle-------------------------------*/
+
+/*------------------Main-body--------------------------------*/
+.homepage section .container {
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    justify-content: center;
+}
+
+.homepage section .container .card {
+
+    margin: 1rem 1rem;
+}
+
+.homepage section .container .cards {
+    width: 100%;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.288);
+    margin: 0rem 1rem;
+    
+    border-radius: 1rem;
+}
+
+.homepage section .cards img{
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.homepage section .cards .content .header .divider{
+    border-left: 2px solid black;
+    margin: 1.2rem 1rem;
+    height: 2rem;
+}
+
+.homepage section .cards .content .header{
+    display: flex;
+}
+
+.homepage section .cards .content .purchase{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1rem;
+}
+
+.homepage section .cards .content .purchase .button{
+    background-color: rgb(14, 153, 77);
+    width: 30%;
+    height: 2rem;
+    margin: 0rem 1rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.homepage section .cards .content .purchase .button a{
+    color: white;
+    margin: 4rem 1rem;
+}
+
+
+/*-----------------End-Main-body-----------------------------*/

@@ -1,0 +1,15 @@
+/*-------------------Navigation-------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+   margin: 0rem 2rem;
+}
+/*------------------End-Navigation---------------------------*/

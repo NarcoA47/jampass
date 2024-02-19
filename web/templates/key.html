@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %}
+<h2>Your Product Keys</h2>
+<ul>
+  {% for key in user_keys %}
+  <li>{{ key.key_number }} {% if key.is_used %}(Used){% endif %}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
