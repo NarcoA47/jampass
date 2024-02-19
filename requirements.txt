@@ -8,13 +8,7 @@ coverage==7.3.2
 cssselect==1.2.0
 distlib==0.3.8
 Django==5.0.2
-filelock==3.12.4
 gunicorn==21.2.0
-idna==3.4
-lockfile==0.12.2
-lxml==4.9.3
-msgpack==1.0.6
-numpy==1.26.1
-packaging==23.2
 Pillow==10.1.0
-
+virtualenv==20.25.0
+whitenoise==6.6.0
